@@ -76,12 +76,12 @@ img:hover
     display: block;
     text-align: center;
     margin: 20px 10px;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
     padding: 1vh;
     padding-top: 3vh;
     height: 7vh;
-    width: 80vw;
+    width: 50vw;
     position: relative;
     background-color: #ffc478;
     text-decoration: none;
