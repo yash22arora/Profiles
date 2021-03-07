@@ -89,6 +89,7 @@ img:hover
     border-radius: 5vh;
     font-family: 'RocknRoll One', sans-serif;
     font-size: 3.5vh;
+    
 }
 
 .links a:hover
@@ -106,4 +107,11 @@ h6{
     font-size: small;
     font-family: 'Stick', sans-serif;
     color: rgb(164, 121, 56);
+}
+
+@media screen and (max-width: 375px)
+{
+    .links a {
+        font-size: 2.5vh;
+    }
 }
