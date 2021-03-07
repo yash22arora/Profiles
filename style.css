@@ -11,6 +11,7 @@ body{
     background-position: fixed; 
     background-attachment: fixed;
     text-align: center;
+    
 
 }
 img{
@@ -28,23 +29,25 @@ img:hover
 .links{
     text-align: center;
     margin-top: 10vh;
+    
 }
 .links a{
     display: block;
     text-align: center;
     margin: 20px 10px;
+    margin-left: 10vw;
+    margin-right: 10vw;
     padding: 1vh;
     padding-top: 3vh;
     height: 7vh;
     width: 80vw;
-    left: 10vw;
     position: relative;
     background-color: #ffc478;
     text-decoration: none;
     color: #a04ea0;
     border-radius: 5vh;
     font-family: 'RocknRoll One', sans-serif;
-    font-size: x-large;
+    font-size: 3.5vh;
 }
 
 .links a:hover
