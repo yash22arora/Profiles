@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(flower.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed; 
+    background-attachment: fixed;
+    text-align: center;
+
+}
+img{
+    
+    margin-top: 5vh;
+    box-shadow: 5px 5px 15px rgb(41, 41, 41);
+    transition: 300ms;
+    
+}
+img:hover
+{
+    transform: scale(1.2);
+    transition: 300ms;
+}
+.links{
+    text-align: center;
+    margin-top: 10vh;
+}
+.links a{
+    display: block;
+    text-align: center;
+    margin: 20px 10px;
+    padding: 1vh;
+    padding-top: 3vh;
+    height: 7vh;
+    width: 80vw;
+    left: 10vw;
+    position: relative;
+    background-color: #ffc478;
+    text-decoration: none;
+    color: #a04ea0;
+    border-radius: 5vh;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: x-large;
+}
+
+.links a:hover
+{
+    background-color: black;
+    color: #ffc478;
+    transition: 0.3s;
+    transform: scale(1.07);
+}
+
+h6{
+    margin-top: 10vh;
+    margin-bottom: 3vh;
+    margin-left: auto;
+    font-size: small;
+    font-family: 'Stick', sans-serif;
+    color: rgb(164, 121, 56);
+}
