@@ -11,15 +11,38 @@ body{
     background-position: fixed; 
     background-attachment: fixed;
     text-align: center;
-    
+    animation: bgblur 2s;
+    backdrop-filter: blur(2px);
 
+}
+
+@keyframes bgblur {
+    0%
+    {
+        backdrop-filter: blur(0px);
+    }
+    
 }
 img{
     
     margin-top: 5vh;
     box-shadow: 5px 5px 15px rgb(41, 41, 41);
     transition: 300ms;
+    animation: imgbump 2s;
+    animation-delay: 1s;
     
+}
+
+@keyframes imgbump
+{
+    50%
+    {
+        transform: scale(1.2);
+    }
+    100%
+    {
+        transform: scale(1);
+    }
 }
 img:hover
 {
@@ -29,7 +52,25 @@ img:hover
 .links{
     text-align: center;
     margin-top: 10vh;
+    animation: fadein 1.5s ease-in;
     
+}
+
+@keyframes fadein
+{
+    0%
+    {
+        opacity: 0;
+       
+    }
+    70%
+    {
+        opacity: 1;
+        
+    }
+
+   
+
 }
 .links a{
     display: block;
